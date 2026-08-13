@@ -1,0 +1,33 @@
+{
+  "name": "sims4-mod-manager",
+  "version": "1.0.0",
+  "description": "Desktop app (Electron + TypeScript) to install, track and safely remove The Sims 4 mods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elpidioneto/sims4-mod-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elpidioneto/sims4-mod-manager/issues"
+  },
+  "homepage": "https://github.com/elpidioneto/sims4-mod-manager#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "electron": "^43.4.0",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}
