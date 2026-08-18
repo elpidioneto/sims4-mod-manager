@@ -7,7 +7,7 @@ app.whenReady().then(() => {
     webPreferences: {
       nodeIntegration: true,
     },
-  });
+  }); // testando o husky
   MyWindow.loadFile("index.html");
   MyWindow.webContents.openDevTools();
 });
